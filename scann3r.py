@@ -6,8 +6,8 @@ from pyfiglet import Figlet
 from datetime import datetime
 
 # Print a banner
-custom_fig = Figlet(font="big")
-print(custom_fig.renderText("SCANN3R"))
+banner = Figlet(font="big")
+print(banner.renderText("SCANN3R"))
 
 # Ask user to provide a target machine to scan
 target = input("Enter a Target to Scan: ")
