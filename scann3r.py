@@ -21,7 +21,7 @@ print("+" * 28)
 # Time when scan started
 time1 = datetime.now()
 
-# Scanning ports betwwn 1 and 65535
+# Scanning ports between 1 and 65535
 try:
     print("Port         Status")
     for port in range(1,65536):
